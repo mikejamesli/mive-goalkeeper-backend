@@ -19,7 +19,7 @@ const corsOptions = {
 
 router.get('/sso', async ctx => {
   ctx.status = 200
-  ctx.body = "hello"
+  ctx.body = "hello world"
 })
 
 api.use(cors(corsOptions));
